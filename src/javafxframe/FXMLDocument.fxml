@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+    <?xml version="1.0" encoding="UTF-8"?>
 
 <?import jfxtras.labs.scene.control.window.*?>
 <?import javafx.geometry.*?>
@@ -42,6 +42,6 @@
         </BorderPane>
     </top>
    <center>
-      <Group fx:id="grupo" BorderPane.alignment="CENTER" />
+      <AnchorPane fx:id="anchor" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
    </center>
 </BorderPane>

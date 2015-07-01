@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER">
+         <graphic>
+            <TextField />
+         </graphic>
+      </Button>
+   </top>
+   <bottom>
+      <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER">
+         <graphic>
+            <PasswordField />
+         </graphic>
+      </Button>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ColorPicker layoutX="147.0" layoutY="84.0" />
+            <DatePicker layoutX="292.0" layoutY="84.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

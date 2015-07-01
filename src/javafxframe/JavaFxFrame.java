@@ -1,8 +1,6 @@
 package javafxframe;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
@@ -17,9 +15,9 @@ public class JavaFxFrame extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+//        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
-        scene = new Scene(root);
+        scene = new Scene(new FramePrincipal());
         
         stage.setScene(scene);
         stage.setTitle("Aplicação JavaFx");
